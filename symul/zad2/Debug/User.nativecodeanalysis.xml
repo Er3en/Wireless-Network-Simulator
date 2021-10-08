@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>core.h</FILENAME>
+      <LINE>735</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Typ wyliczeniowy „fmt::v6::internal::type” nie ma zakresu. Preferowany jest element „enum class” zamiast „enum” (enum.3).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::is_integral_type</FUNCTION>
+    <DECORATED>?is_integral_type@internal@v6@fmt@@YA_NW4type@123@@Z</DECORATED>
+    <FUNCLINE>735</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format.h</FILENAME>
+      <LINE>470</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Typ wyliczeniowy „fmt::v6::char8_t” nie ma zakresu. Preferowany jest element „enum class” zamiast „enum” (enum.3).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::count_code_points</FUNCTION>
+    <DECORATED>?count_code_points@internal@v6@fmt@@YAIV?$basic_string_view@W4char8_t@v6@fmt@@@23@@Z</DECORATED>
+    <FUNCLINE>469</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format-inl.h</FILENAME>
+      <LINE>484</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „-” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „-” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::get_cached_power</FUNCTION>
+    <DECORATED>?get_cached_power@internal@v6@fmt@@YA?AVfp@123@HAAH@Z</DECORATED>
+    <FUNCLINE>480</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format-inl.h</FILENAME>
+      <LINE>484</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „+” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „+” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::get_cached_power</FUNCTION>
+    <DECORATED>?get_cached_power@internal@v6@fmt@@YA?AVfp@123@HAAH@Z</DECORATED>
+    <FUNCLINE>480</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format-inl.h</FILENAME>
+      <LINE>763</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Typ wyliczeniowy „fmt::v6::internal::round_direction” nie ma zakresu. Preferowany jest element „enum class” zamiast „enum” (enum.3).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::get_round_direction</FUNCTION>
+    <DECORATED>?get_round_direction@internal@v6@fmt@@YA?AW4round_direction@123@_K00@Z</DECORATED>
+    <FUNCLINE>756</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format-inl.h</FILENAME>
+      <LINE>882</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Typ wyliczeniowy „fmt::v6::internal::digits::result” nie ma zakresu. Preferowany jest element „enum class” zamiast „enum” (enum.3).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::fixed_handler::on_start</FUNCTION>
+    <DECORATED>?on_start@fixed_handler@internal@v6@fmt@@QAE?AW4result@digits@234@_K00AAH@Z</DECORATED>
+    <FUNCLINE>873</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\</FILEPATH>
+      <FILENAME>common-inl.h</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Typ wyliczeniowy „spdlog::level::level_enum” nie ma zakresu. Preferowany jest element „enum class” zamiast „enum” (enum.3).</DESCRIPTION>
+    <FUNCTION>spdlog::level::to_string_view</FUNCTION>
+    <DECORATED>?to_string_view@level@spdlog@@YAAAV?$basic_string_view@D@v6@fmt@@W4level_enum@12@@Z</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\details\</FILEPATH>
+      <FILENAME>os-inl.h</FILENAME>
+      <LINE>210</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>Element „f” może być elementem „0”: jest to niespójne ze specyfikacją funkcji „_fileno”. </DESCRIPTION>
+    <FUNCTION>spdlog::details::os::filesize</FUNCTION>
+    <DECORATED>?filesize@os@details@spdlog@@YAIPAU_iobuf@@@Z</DECORATED>
+    <FUNCLINE>203</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\details\</FILEPATH>
+        <FILENAME>os-inl.h</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>rozgałęzienie</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Element „f” może mieć wartość NULL (Wejdź do tego rozgałęzienia)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\details\</FILEPATH>
+        <FILENAME>os-inl.h</FILENAME>
+        <LINE>207</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\details\</FILEPATH>
+        <FILENAME>os-inl.h</FILENAME>
+        <LINE>207</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\details\</FILEPATH>
+        <FILENAME>os-inl.h</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>użycie</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Element „f” jest wejściem dla elementu „_fileno” (deklaracja pod adresem c:\program files (x86)\windows kits\10\include\10.0.19041.0\ucrt\stdio.h:205)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\details\</FILEPATH>
+        <FILENAME>os-inl.h</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>użycie</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Element „f” nie może być elementem NULL, ponieważ jest to niespójne z adnotacją SAL dotyczącą elementu „_fileno”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\</FILEPATH>
+      <FILENAME>pattern_formatter.h</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Typ wyliczeniowy „spdlog::details::padding_info::pad_side” nie ma zakresu. Preferowany jest element „enum class” zamiast „enum” (enum.3).</DESCRIPTION>
+    <FUNCTION>spdlog::details::padding_info::{ctor}</FUNCTION>
+    <DECORATED>??0padding_info@details@spdlog@@QAE@IW4pad_side@012@_N@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\SC4\Jakub_Rybski_4_zad\zad2\</FILEPATH>
+      <FILENAME>User.cpp</FILENAME>
+      <LINE>74</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „*” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „*” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>User::Actualize_Data_To_Download</FUNCTION>
+    <DECORATED>?Actualize_Data_To_Download@User@@QAEXH@Z</DECORATED>
+    <FUNCLINE>71</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\SC4\Jakub_Rybski_4_zad\zad2\</FILEPATH>
+      <FILENAME>User.cpp</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „*” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „*” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>User::Downl</FUNCTION>
+    <DECORATED>?Downl@User@@QAEHH@Z</DECORATED>
+    <FUNCLINE>85</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>core.h</FILENAME>
+      <LINE>579</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Zmienna „fmt::v6::internal::buffer&lt;char&gt;::ptr_” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::buffer&lt;char&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$buffer@D@internal@v6@fmt@@IAE@I@Z</DECORATED>
+    <FUNCLINE>579</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>fmt::v6::internal::buffer&lt;char&gt;::ptr_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format.h</FILENAME>
+      <LINE>1028</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Typ wyliczeniowy „fmt::v6::align::type” nie ma zakresu. Preferowany jest element „enum class” zamiast „enum” (enum.3).</DESCRIPTION>
+    <FUNCTION>fmt::v6::basic_format_specs&lt;char&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$basic_format_specs@D@v6@fmt@@QAE@XZ</DECORATED>
+    <FUNCLINE>1024</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format.h</FILENAME>
+      <LINE>1029</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Typ wyliczeniowy „fmt::v6::sign::type” nie ma zakresu. Preferowany jest element „enum class” zamiast „enum” (enum.3).</DESCRIPTION>
+    <FUNCTION>fmt::v6::basic_format_specs&lt;char&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$basic_format_specs@D@v6@fmt@@QAE@XZ</DECORATED>
+    <FUNCLINE>1024</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format.h</FILENAME>
+      <LINE>1458</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Zmienna „fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;char,fmt::v6::basic_format_specs&lt;char&gt; &gt;::prefix” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;char,fmt::v6::basic_format_specs&lt;char&gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$int_writer@DU?$basic_format_specs@D@v6@fmt@@@?$basic_writer@V?$buffer_range@D@v6@fmt@@@internal@v6@fmt@@QAE@AAV1234@DABU?$basic_format_specs@D@34@@Z</DECORATED>
+    <FUNCLINE>1458</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;char,fmt::v6::basic_format_specs&lt;char&gt; &gt;::prefix</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format.h</FILENAME>
+      <LINE>1458</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Zmienna „fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;unsigned __int64,fmt::v6::basic_format_specs&lt;char&gt; &gt;::prefix” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;unsigned __int64,fmt::v6::basic_format_specs&lt;char&gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$int_writer@_KU?$basic_format_specs@D@v6@fmt@@@?$basic_writer@V?$buffer_range@D@v6@fmt@@@internal@v6@fmt@@QAE@AAV1234@_KABU?$basic_format_specs@D@34@@Z</DECORATED>
+    <FUNCLINE>1458</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;unsigned __int64,fmt::v6::basic_format_specs&lt;char&gt; &gt;::prefix</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format.h</FILENAME>
+      <LINE>1458</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Zmienna „fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;__int64,fmt::v6::basic_format_specs&lt;char&gt; &gt;::prefix” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;__int64,fmt::v6::basic_format_specs&lt;char&gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$int_writer@_JU?$basic_format_specs@D@v6@fmt@@@?$basic_writer@V?$buffer_range@D@v6@fmt@@@internal@v6@fmt@@QAE@AAV1234@_JABU?$basic_format_specs@D@34@@Z</DECORATED>
+    <FUNCLINE>1458</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;__int64,fmt::v6::basic_format_specs&lt;char&gt; &gt;::prefix</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format.h</FILENAME>
+      <LINE>1458</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Zmienna „fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;unsigned int,fmt::v6::basic_format_specs&lt;char&gt; &gt;::prefix” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;unsigned int,fmt::v6::basic_format_specs&lt;char&gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$int_writer@IU?$basic_format_specs@D@v6@fmt@@@?$basic_writer@V?$buffer_range@D@v6@fmt@@@internal@v6@fmt@@QAE@AAV1234@IABU?$basic_format_specs@D@34@@Z</DECORATED>
+    <FUNCLINE>1458</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;unsigned int,fmt::v6::basic_format_specs&lt;char&gt; &gt;::prefix</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format.h</FILENAME>
+      <LINE>1458</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Zmienna „fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;int,fmt::v6::basic_format_specs&lt;char&gt; &gt;::prefix” jest niezainicjowana. Zawsze inicjuj zmienną składową (type.6).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;int,fmt::v6::basic_format_specs&lt;char&gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$int_writer@HU?$basic_format_specs@D@v6@fmt@@@?$basic_writer@V?$buffer_range@D@v6@fmt@@@internal@v6@fmt@@QAE@AAV1234@HABU?$basic_format_specs@D@34@@Z</DECORATED>
+    <FUNCLINE>1458</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>fmt::v6::internal::basic_writer&lt;fmt::v6::buffer_range&lt;char&gt; &gt;::int_writer&lt;int,fmt::v6::basic_format_specs&lt;char&gt; &gt;::prefix</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format-inl.h</FILENAME>
+      <LINE>447</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „-” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „-” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::fp::assign_float_with_boundaries</FUNCTION>
+    <DECORATED>??$assign_float_with_boundaries@N@fp@internal@v6@fmt@@QAE?AUboundaries@123@N@Z</DECORATED>
+    <FUNCLINE>441</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format-inl.h</FILENAME>
+      <LINE>451</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „-” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „-” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::fp::assign_float_with_boundaries</FUNCTION>
+    <DECORATED>??$assign_float_with_boundaries@N@fp@internal@v6@fmt@@QAE?AUboundaries@123@N@Z</DECORATED>
+    <FUNCLINE>441</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format-inl.h</FILENAME>
+      <LINE>437</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „-” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „-” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::fp::assign_with_boundaries</FUNCTION>
+    <DECORATED>??$assign_with_boundaries@N@fp@internal@v6@fmt@@QAE?AUboundaries@123@N@Z</DECORATED>
+    <FUNCLINE>431</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format-inl.h</FILENAME>
+      <LINE>447</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „-” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „-” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::fp::assign_float_with_boundaries</FUNCTION>
+    <DECORATED>??$assign_float_with_boundaries@O@fp@internal@v6@fmt@@QAE?AUboundaries@123@O@Z</DECORATED>
+    <FUNCLINE>441</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format-inl.h</FILENAME>
+      <LINE>451</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „-” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „-” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::fp::assign_float_with_boundaries</FUNCTION>
+    <DECORATED>??$assign_float_with_boundaries@O@fp@internal@v6@fmt@@QAE?AUboundaries@123@O@Z</DECORATED>
+    <FUNCLINE>441</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\minex\Desktop\sc\Jakub_Rybski_3_zad\spdlog\include\spdlog\fmt\bundled\</FILEPATH>
+      <FILENAME>format-inl.h</FILENAME>
+      <LINE>437</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Przepełnienie arytmetyczne: użycie operatora „-” dla wartości bajtowej 4, a następnie rzutowanie wyniku na wartość bajtową 8. Rzutuj wartość na szerszy typ przed wywołaniem operatora „-” w celu uniknięcia przepełnienia (io.2).</DESCRIPTION>
+    <FUNCTION>fmt::v6::internal::fp::assign_with_boundaries</FUNCTION>
+    <DECORATED>??$assign_with_boundaries@O@fp@internal@v6@fmt@@QAE?AUboundaries@123@O@Z</DECORATED>
+    <FUNCLINE>431</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

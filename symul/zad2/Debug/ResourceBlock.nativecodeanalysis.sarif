@@ -1,0 +1,461 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29910.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x009EB1C0 -il C:\\Users\\minex\\AppData\\Local\\Temp\\_CL_23aa95d6ast -typedil -f ResourceBlock.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829910 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -I C:\\Users\\minex\\Desktop\\sc\\Jakub_Rybski_3_zad\\spdlog\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\ResourceBlock.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\minex\\Desktop\\SC4\\Jakub_Rybski_4_zad\\zad2 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/minex/Desktop/sc/Jakub_Rybski_3_zad/spdlog/include/spdlog/fmt/bundled/core.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "2fdf298abafc6dc2e80458310160789d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/minex/Desktop/sc/Jakub_Rybski_3_zad/spdlog/include/spdlog/fmt/bundled/format.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "6356dc2faea93b35d4edf00f6ff31cdd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/minex/Desktop/sc/Jakub_Rybski_3_zad/spdlog/include/spdlog/fmt/bundled/format-inl.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c49a61bfc3e5629c45cd8fe71e55973a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/minex/Desktop/sc/Jakub_Rybski_3_zad/spdlog/include/spdlog/common-inl.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "398a5b29f370a4bcd457b033a382da13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/minex/Desktop/sc/Jakub_Rybski_3_zad/spdlog/include/spdlog/details/os-inl.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "fe534546d37ff9885b93ee5c86e1f4f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/minex/Desktop/sc/Jakub_Rybski_3_zad/spdlog/include/spdlog/pattern_formatter.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "b7d5cde26aa8301f15867491b1d671c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/minex/Desktop/SC4/Jakub_Rybski_4_zad/zad2/User.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "eb8e70845dc85fd10866baf0e60a6e53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/user.h"
+          },
+          "hashes": {
+            "md5": "3bd4699ba22bdf0349c999cf0b42d6d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/generator.h"
+          },
+          "hashes": {
+            "md5": "4de0280f963af823ad91b64a00d1406f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/spdlog.h"
+          },
+          "hashes": {
+            "md5": "68b196614c763a49f8f5f84f19b99ce2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/common.h"
+          },
+          "hashes": {
+            "md5": "007dd0070aa4403428a41bf623ba89fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/tweakme.h"
+          },
+          "hashes": {
+            "md5": "1cdd4d37e405218d4e35af41003ebe6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/null_mutex.h"
+          },
+          "hashes": {
+            "md5": "baca51cba479243fe585895f8e5e6d3a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/fmt/fmt.h"
+          },
+          "hashes": {
+            "md5": "25f980956fc60d101853b890039d1755"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/registry.h"
+          },
+          "hashes": {
+            "md5": "e89535680b3dbb9a6b2a5fdfe23dc5c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/cfg/log_levels.h"
+          },
+          "hashes": {
+            "md5": "0cc0cb566a2c018574d5add824703ab3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/registry-inl.h"
+          },
+          "hashes": {
+            "md5": "960aedb1523f6c003f4e9045943227b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/periodic_worker.h"
+          },
+          "hashes": {
+            "md5": "7b0d02412a29232d2ff87d565791e1fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/periodic_worker-inl.h"
+          },
+          "hashes": {
+            "md5": "45d77f152715b27b1c140525f731cd78"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/logger.h"
+          },
+          "hashes": {
+            "md5": "7fc61c382b5ac96649da857fc8cb447f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/log_msg.h"
+          },
+          "hashes": {
+            "md5": "43f9a35f3d6fa91ac18dbad3a82d35c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/log_msg-inl.h"
+          },
+          "hashes": {
+            "md5": "041e7fc3db0e4290080ce340ca5aaba3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/os.h"
+          },
+          "hashes": {
+            "md5": "9bf8accf92cdbe2870f0a84d00334320"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/windows_include.h"
+          },
+          "hashes": {
+            "md5": "0d023d9e66ec282ecaf400a3f8f1436c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/backtracer.h"
+          },
+          "hashes": {
+            "md5": "986ef87e3daccccd327d78f5df00cbfc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/log_msg_buffer.h"
+          },
+          "hashes": {
+            "md5": "2253129cbeeaefdf336a551ed0126e2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/log_msg_buffer-inl.h"
+          },
+          "hashes": {
+            "md5": "eae0cef8677fcf18a08b2715a069d211"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/circular_q.h"
+          },
+          "hashes": {
+            "md5": "f382b27068fc8d79bb377aaaec405bba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/backtracer-inl.h"
+          },
+          "hashes": {
+            "md5": "224024f113dbde8ae5276e7245a399f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/logger-inl.h"
+          },
+          "hashes": {
+            "md5": "861a055d316c50ff3ca3649eab7e5037"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/sinks/sink.h"
+          },
+          "hashes": {
+            "md5": "b7a2b6822006bfb1dce70eac1de79102"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/formatter.h"
+          },
+          "hashes": {
+            "md5": "7a79c32e8ef3448960762f8383d62540"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/sinks/sink-inl.h"
+          },
+          "hashes": {
+            "md5": "4d285de96e000345b75239eced90bddd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/pattern_formatter-inl.h"
+          },
+          "hashes": {
+            "md5": "2755096a6d06d714abeab8effbf94e49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/fmt_helper.h"
+          },
+          "hashes": {
+            "md5": "6597eb17054fc0468f5d744d97508713"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/sinks/wincolor_sink.h"
+          },
+          "hashes": {
+            "md5": "ac06291f576894c1d51c3d92872cb821"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/console_globals.h"
+          },
+          "hashes": {
+            "md5": "d808035e47f509f69e5d133b71437ebb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/sinks/wincolor_sink-inl.h"
+          },
+          "hashes": {
+            "md5": "c2ab3dd74a67e0d67c112889e14e633c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/version.h"
+          },
+          "hashes": {
+            "md5": "bcbfec03cbb20a9f6b30df7611bd3009"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/details/synchronous_factory.h"
+          },
+          "hashes": {
+            "md5": "f26e5b2cda8cddd7db80756288a8decd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc/jakub_rybski_3_zad/spdlog/include/spdlog/spdlog-inl.h"
+          },
+          "hashes": {
+            "md5": "c6393f9d854e3ac238a982c04b99fdbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/simulator.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "9e900d1ce5c5c2abf20583b44be30127"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/simulator.h"
+          },
+          "hashes": {
+            "md5": "0b59248cfac565d4ad9ca6b0c2af4d52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/network.h"
+          },
+          "hashes": {
+            "md5": "92d689ab01e17601164fe54da4304775"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/basestation.h"
+          },
+          "hashes": {
+            "md5": "0713644e892ebe2398fdfcfdcb20e851"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/resourceblock.h"
+          },
+          "hashes": {
+            "md5": "eefed835c3bd88f3895082915acbf08d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/event.h"
+          },
+          "hashes": {
+            "md5": "17983de787e1561d7f5353cff6505c1b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/generateuserevent.h"
+          },
+          "hashes": {
+            "md5": "9d9793dc3227944e01d5b8cf2b6df21c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/allocateuser.h"
+          },
+          "hashes": {
+            "md5": "9bf66f9d1d4f26565ac612f2a80e11ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/changerk.h"
+          },
+          "hashes": {
+            "md5": "5bc7b3453d1e1a21e0e7b808908b1f67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/minex/desktop/sc4/jakub_rybski_4_zad/zad2/resourceblock.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "7e5d3763c493fd71011bb41c92eaa72c"
+          }
+        }
+      ]
+    }
+  ]
+}
