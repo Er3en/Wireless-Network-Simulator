@@ -9,12 +9,10 @@ czasu s stacja bazowa przydziela użytkownikom bloki zasobów zgodnie z algorytm
 Dodatkowo każda transmisja może zakończyć się błędem z prawdopodobieństwem ε. W takim przypadku dane należy przesyłać aż do momentu, kiedy zostaną poprawnie odebrane. 
 Po odebraniu wszystkich danych, użytkownik jest usuwany z systemu.
 Opracuj symulator sieci bezprzewodowej zgodnie z metodą planowania zdarzeń.
+
 ● Za pomocą symulacji wyznacz intensywność zgłoszeń λ, która zapewnia średni czas oczekiwania nie większy niż 50 ms, oraz:
-o średnią przepływność systemu mierzoną liczbą danych przesłanych poprawnie przez
-stację bazową w jednostce czasu,
-o średnią przepływność użytkownika mierzoną liczbą danych odebranych poprawnie od
-stacji bazowej w jednostce czasu, uśrednioną po wszystkich użytkownikach sieci; ta
-wartość uwzględnia okresy kiedy użytkownik nie miał przydzielonego żadnego bloku
+o średnią przepływność systemu mierzoną liczbą danych przesłanych poprawnie przez stację bazową w jednostce czasu,
+o średnią przepływność użytkownika mierzoną liczbą danych odebranych poprawnie od stacji bazowej w jednostce czasu, uśrednioną po wszystkich użytkownikach sieci; ta wartość uwzględnia okresy kiedy użytkownik nie miał przydzielonego żadnego bloku
 zasobów,
 o średni czas oczekiwania, tzn. czas między pojawieniem się użytkownika w sieci, a zakończeniem odbierania danych,
 o histogram średnich przepływności dla wszystkich użytkowników sieci.
