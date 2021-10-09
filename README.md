@@ -11,6 +11,7 @@ Po odebraniu wszystkich danych, użytkownik jest usuwany z systemu.
 Opracuj symulator sieci bezprzewodowej zgodnie z metodą planowania zdarzeń.
 
 ● Za pomocą symulacji wyznacz intensywność zgłoszeń λ, która zapewnia średni czas oczekiwania nie większy niż 50 ms, oraz:
+
 o średnią przepływność systemu mierzoną liczbą danych przesłanych poprawnie przez stację bazową w jednostce czasu,
 o średnią przepływność użytkownika mierzoną liczbą danych odebranych poprawnie od stacji bazowej w jednostce czasu, uśrednioną po wszystkich użytkownikach sieci; ta wartość uwzględnia okresy kiedy użytkownik nie miał przydzielonego żadnego bloku
 zasobów,
